@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-game-bg: #0D0D2B;
+  --color-game-surface: #1A1A40;
+  --color-game-pink: #FF2D78;
+  --color-game-yellow: #FFE135;
+  --color-game-green: #39FF14;
+  --color-game-purple: #9B5DE5;
+
+  --animate-float-up: float-up 1s ease-out forwards;
+
+  @keyframes float-up {
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-50px); opacity: 0; }
+  }
+}
